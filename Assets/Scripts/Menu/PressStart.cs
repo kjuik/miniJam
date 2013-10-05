@@ -3,9 +3,6 @@ using System.Collections;
 
 public class PressStart : MonoBehaviour {
 	
-	public GUIText oStart;
-	public GUIText oContinue;
-	
 	// Use this for initialization
 	void Start () {}
 	
