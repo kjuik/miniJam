@@ -63,7 +63,9 @@ public class PlayerControls : MonoBehaviour {
 				"easeType", "linear"));	
 			}
 			else {
-				//die	
+				cam.transform.parent = null;
+				animation.Play();	
+				
 			}
 
 		}
